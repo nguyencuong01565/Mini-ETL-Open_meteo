@@ -1,0 +1,28 @@
+Processing: Hanoi
+Failed at relation "raw.weather_forcast" does not exist
+LINE 2:     INSERT INTO raw.weather_forcast(city, lat, lon, data_jso...
+                        ^
+
+Traceback (most recent call last):
+  File "/Users/CuongGB/Documents/Data analysis/Project/Mini ETL/Project weather/ETL_open_meteo.py", line 121, in <module>
+    run_etl()
+    ~~~~~~~^^
+  File "/Users/CuongGB/Documents/Data analysis/Project/Mini ETL/Project weather/ETL_open_meteo.py", line 97, in run_etl
+    load_raw(conn, city, lat, lon, data)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/CuongGB/Documents/Data analysis/Project/Mini ETL/Project weather/ETL_open_meteo.py", line 42, in load_raw
+    cursor.execute(query, (city, lat, lon, json.dumps(data)))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "raw.weather_forcast" does not exist
+LINE 2:     INSERT INTO raw.weather_forcast(city, lat, lon, data_jso...
+                        ^
+
+Processing: Hanoi
+Processing: HCM
+ETL done
+Processing: Hanoi
+Processing: HCM
+ETL done
+Processing: Hanoi
+Processing: HCM
+ETL done
