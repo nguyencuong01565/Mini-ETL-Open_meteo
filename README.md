@@ -16,6 +16,8 @@ The pipeline can be scheduled using either Cron jobs or Apache Airflow. When Air
 - Psycopg2
 
 ## 3.Architecture
+
+```text
 Open-Meteo API
         ↓
 Extract Weather Data
@@ -25,6 +27,7 @@ Transform & Clean Data (Python)
 Load to PostgreSQL
         ↓
 Analytics / Reporting
+```
 
 
 ## 4.Features
