@@ -7,13 +7,12 @@ This project implements an automated ETL pipeline that collects weather data fro
 The pipeline can be scheduled using either Cron jobs or Apache Airflow. When Airflow is used, workflow execution is managed through DAGs (Directed Acyclic Graphs), providing better scheduling, monitoring, and task orchestration capabilities.
 
 2.Tech Stack
-
-_ Python
-_ Apache Airflow
-_ PostgreSQL
-_ DBeaver
-_ Pandas
-_ Psycopg2
+_Python
+_Apache Airflow
+_PostgreSQL
+_DBeaver
+_Pandas
+_Psycopg2
 
 3.Architecture
 
@@ -30,12 +29,12 @@ Analytics / Reporting
 
 4.Features
 
-_ Automatically retrieves weather data from the Open-Meteo API every hour.
-_ Extracts and transforms raw JSON responses into a structured tabular format.
-_ Loads processed weather observations into PostgreSQL.
-_ Supports both Cron-based and Airflow-based scheduling.
-_ Uses Airflow DAGs to manage ETL workflow execution and monitoring.
-_ Stores historical weather records for future analysis and dashboard development.
+_Automatically retrieves weather data from the Open-Meteo API every hour.
+_Extracts and transforms raw JSON responses into a structured tabular format.
+_Loads processed weather observations into PostgreSQL.
+_Supports both Cron-based and Airflow-based scheduling.
+_Uses Airflow DAGs to manage ETL workflow execution and monitoring.
+_Stores historical weather records for future analysis and dashboard development.
 
 ---
 
