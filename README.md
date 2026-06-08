@@ -1,12 +1,13 @@
 # Weather Data ETL Pipeline
 
 1.Overview
+
 This project implements an automated ETL pipeline that collects weather data from the Open-Meteo API on an hourly schedule and stores the processed data in PostgreSQL for future analysis and reporting.
 
 The pipeline can be scheduled using either Cron jobs or Apache Airflow. When Airflow is used, workflow execution is managed through DAGs (Directed Acyclic Graphs), providing better scheduling, monitoring, and task orchestration capabilities.
 
-
 2.Tech Stack
+
 _ Python
 _ Apache Airflow
 _ PostgreSQL
@@ -28,6 +29,7 @@ Analytics / Reporting
 
 
 4.Features
+
 _ Automatically retrieves weather data from the Open-Meteo API every hour.
 _ Extracts and transforms raw JSON responses into a structured tabular format.
 _ Loads processed weather observations into PostgreSQL.
