@@ -28,23 +28,24 @@ Analytics / Reporting
 
 
 ## 4.Features
-_Automatically retrieves weather data from the Open-Meteo API every hour.
-_Extracts and transforms raw JSON responses into a structured tabular format.
-_Loads processed weather observations into PostgreSQL.
-_Supports both Cron-based and Airflow-based scheduling.
-_Uses Airflow DAGs to manage ETL workflow execution and monitoring.
-_Stores historical weather records for future analysis and dashboard development.
+
+- Automatically retrieves weather data from the Open-Meteo API every hour.
+- Extracts and transforms raw JSON responses into a structured tabular format.
+- Loads processed weather observations into PostgreSQL.
+- Supports both Cron-based and Airflow-based scheduling.
+- Uses Airflow DAGs to manage ETL workflow execution and monitoring.
+- Stores historical weather records for future analysis and dashboard development.
 
 ## 5.Data Pipeline Workflow
-1. Request weather data from the Open-Meteo API.
-2. Parse and validate the API response.
-3. Transform raw weather data into a structured format using Python.
-4. Load processed records into PostgreSQL.
-5. Execute automatically every hour via Cron or Airflow scheduling.
+- Request weather data from the Open-Meteo API.
+- Parse and validate the API response.
+- Transform raw weather data into a structured format using Python.
+- Load processed records into PostgreSQL.
+- Execute automatically every hour via Cron or Airflow scheduling.
 
 ## 6.Future Improvements
-_ Containerize the pipeline using Docker.
-_ Add data quality validation checks.
-_ Build Power BI dashboards for weather trend analysis.
-_ Implement monitoring and alerting for failed ETL runs.
+- Containerize the pipeline using Docker.
+- Add data quality validation checks.
+- Build Power BI dashboards for weather trend analysis.
+- Implement monitoring and alerting for failed ETL runs.
 
