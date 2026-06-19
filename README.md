@@ -6,6 +6,9 @@ This project implements an automated ETL pipeline that collects weather data fro
 
 The pipeline can be scheduled using either Cron jobs or Apache Airflow. When Airflow is used, workflow execution is managed through DAGs (Directed Acyclic Graphs), providing better scheduling, monitoring, and task orchestration capabilities.
 
+<img width="895" height="501" alt="Screenshot 2026-06-19 at 11 59 16" src="https://github.com/user-attachments/assets/64d51bc1-23ca-4f24-9912-b19f133bd2e3" />
+
+
 ## 2.Tech Stack
 
 - Python
