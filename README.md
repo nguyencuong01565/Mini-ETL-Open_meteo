@@ -52,6 +52,10 @@ Analytics / Reporting
 <img width="1643" height="1199" alt="Screenshot 2026-06-19 at 15 03 56" src="https://github.com/user-attachments/assets/805bb2ec-c1f8-459e-903d-64d51e226ce0" />
 Successful Pipeline DAG Run
 
+<img width="899" height="619" alt="Screenshot 2026-06-19 at 15 06 17" src="https://github.com/user-attachments/assets/96f99cca-8629-4a93-8b2c-b0d447077866" />
+
+Successful Pipeline Database imported
+
 ## 6.Future Improvements
 - Containerize the pipeline using Docker.
 - Add data quality validation checks.
